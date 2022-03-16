@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         } else if ((sinalApp == 0 && sinal == 2) || (sinalApp == 2 && sinal == 1) || (sinalApp == 1 && sinal == 0)) {
             t.setText("Você Perdeu!");
         }  else {
-            //Empate do jogo
+            //Empate do jogo.
             t.setText("Jogo Empatado!");
         }
     }
